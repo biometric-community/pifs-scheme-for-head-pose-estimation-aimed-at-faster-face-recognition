@@ -1,0 +1,21 @@
+device: cpu
+data:
+  root: ../../datasets/aflw2000
+  gallery_size: 750
+  max_images: null
+model:
+  image_size: 128
+  domain_step: 16
+  encoding_dim: 1536
+train:
+  seed: 42
+  protocol: full
+  workers: 8
+eval:
+  distance: canberra
+  max_probe: null
+  workers: 8
+paths:
+  template_dir: outputs/templates/full
+  log_dir: outputs/logs/full
+  figure_dir: outputs/figures/full

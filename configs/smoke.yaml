@@ -1,0 +1,19 @@
+device: cpu
+data:
+  root: ../../datasets/aflw2000
+  gallery_size: 40
+  max_images: 80
+model:
+  image_size: 128
+  domain_step: 16
+  encoding_dim: 1536
+train:
+  seed: 42
+  protocol: smoke
+eval:
+  distance: canberra
+  max_probe: 20
+paths:
+  template_dir: outputs/templates/smoke
+  log_dir: outputs/logs/smoke
+  figure_dir: outputs/figures/smoke
