@@ -1,0 +1,8 @@
+# Bisogni, Nappi, Pero & Ricciardi, "PIFS Scheme for HEad Pose Estimation Aimed at Faster
+# Face Recognition", IEEE TBIOM 2022. Only the abstract was available.
+encoding_dim: 1536
+gallery_size: 750
+
+# Fill in from the paper's tables to enable test_published_values.
+# Shape: {pitch: 0.0, yaw: 0.0, roll: 0.0} in degrees on AFLW2000.
+published_values: null
